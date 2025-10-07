@@ -8,7 +8,8 @@ UMLOperation::UMLOperation(std::string clss, std::string name, LocationInfo* loc
   : location_info_(location_info),
     name_(name),
     class_name_(clss),
-    cust_container_(container)
+    cust_container_(container),
+    operation_body_(nullptr)
 {
   is_final_ = false;
 }
